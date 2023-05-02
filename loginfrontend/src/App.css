@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /*background: #f0f2f5;*/
+  /* background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D); */
+  font-family: Arial, sans-serif;
+  background-image:url("https://r1imghtlak.mmtcdn.com/c04bab0e34b411eb8c840242ac110003.jpg") ;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+ 
+  background-position-x:right;
+  margin:auto;
+
+  
+  
+
+}
+
+/* @media screen and (min-width: 600px) {
+  .App {
+    padding: 4rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 0.5rem;
+    margin-top: 5rem;
+   
+  }
+} */

@@ -1,0 +1,126 @@
+/* .dashboard{
+    background-image:url("https://r1imghtlak.mmtcdn.com/c04bab0e34b411eb8c840242ac110003.jpg") ;
+    background-repeat: no-repeat;
+  
+    background-size: 100% 100%;
+   
+    background-position-x:right;
+    
+} */
+
+
+
+
+
+
+.parent {
+    display: flex;
+    padding: 30px; 
+    position: 100px;
+    
+   
+    
+}
+
+.card{
+     
+
+    
+    
+    display:flex;
+  margin-left: 200px;
+  width: 950px;
+  min-height: 80vh;
+  /* background: #fafafa5c; */
+  /* background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: center;
+  background-image: url("https://img.freepik.com/free-vector/student-bedroom-dormitory-night-with-bunk-bed-desk-chair_88138-1039.jpg"); */
+  background: rgba(255, 255, 255, 0.815);
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+ 
+
+
+  
+
+
+
+  
+}
+
+.head h1 {
+
+
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    right: 100;
+    z-index: 1;
+    margin-left: 130px;
+    
+  
+  
+  
+    text-align:center; font-size:50px; text-transform:uppercase; color:#000000; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+  }
+  .head h1 span {
+    margin-top: 5px;
+      font-size:15px; color:#000000; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .head h1 span:after,.head h1 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #ffffff;
+      border-top: 1px solid #ffffff;
+      height: 5px;
+    background-color:#000000;
+  }
+
+.dash {
+  display:contents;
+  margin-left: 100px;
+  width: 200px;
+  min-height: 30vh;
+  /* background: #ffffffab;
+  border: 1px solid #5f6874;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px; */
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+
+.gender {
+  display: left;
+  margin-left: 200px;
+  width: 200px;
+  min-height: 30vh;
+  /* background:#ffffffab;
+  border: 1px solid #787a7c;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px; */
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+} 

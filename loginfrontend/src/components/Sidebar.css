@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+ @media only screen and (min-width: 992px) {
+    .sidebar ul li  {
+    padding: 0rem;
+    /* border: 1px solid white; */
+    /* border-radius: 50px; */
+    /* margin: 0.5rem;  */
+     margin-bottom: -1rem; 
+
+  }
+}
+.sidebar{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 220px;
+    height: 100%;
+    background: #042331;
+    
+   }
+
+   .sidebar ul li {
+    display: block;
+    padding: 45px 25px;
+    border-bottom: 1px solid #03374e;
+    color: #0e94d4;
+   }
+   
+
+   .sidebar ul li  .text{
+    margin-left: 19px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   }
+   
+   .sidebar ul li :hover{
+   
+    color: #fff;
+    cursor: pointer;
+
+  
+   }
+

@@ -1,0 +1,28 @@
+.about {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    width: 730px;
+    min-height: 60vh;
+    /* background: #fafafa; */
+    background: rgba(255, 255, 255, 0.829);
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 100px;
+    padding: 5rem;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .about p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
