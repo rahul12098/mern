@@ -127,6 +127,44 @@ app.post("/rooms", async (req, res)=> {
             }
     )
 
+const contactSchema = new mongoose.Schema({
+        name: String,
+        email: String,
+        hostel: String,
+        contact: String,
+        feedback: String
+    })
+
+    const Contact = new mongoose.model("Contact", contactSchema)
+
+    app.post("/contact", async (req, res)=> {
+        const {name, email, hostel, contact, feedback} = req.body       //extracting values from req.body
+        
+        let Contact = await Contact.findOne({email:email});
+        if (Contact) {
+            return res.status(400).send('That user already exists!');
+            
+        }
+    
+                    const newContact = new Contact({    //extracted values(name,email,password) stored in user ....here User is the module (User)
+                        name,
+                        email,
+                        hostel,
+                        contact,
+                        feedback
+                    })
+                  await  newContact.save()
+                        .then(function () {
+                            res.send({ message: "Feedback Sent" })
+                        })
+                        .catch(function (err) {
+                            res.send(err);
+                        })
+                    
+                    
+                }
+        )
+
    
 app.listen(5000,() => {
     console.log("connected successfully")
