@@ -140,13 +140,9 @@ const contactSchema = new mongoose.Schema({
     app.post("/contact", async (req, res)=> {
         const {name, email, hostel, contact, feedback} = req.body       //extracting values from req.body
         
-        let Contact = await Contact.findOne({email:email});
-        if (Contact) {
-            return res.status(400).send('That user already exists!');
-            
-        }
+        
     
-                    const newContact = new Contact({    //extracted values(name,email,password) stored in user ....here User is the module (User)
+            const newContact = new Contact({    //extracted values(name,email,password) stored in user ....here User is the module (User)
                         name,
                         email,
                         hostel,
