@@ -2,7 +2,8 @@
 
 
 
-Implemented the log in and registration page
+Implemented the log in and registration page and redirects to the dashboard where rooms can be booked and other services can be booked too
+
 using MERN.
 Used mongodb - database 
 used server - express
